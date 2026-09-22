@@ -1,0 +1,26 @@
+[0.031s] Invoking command in '/home/wangkun/z1_ros2_ws/build/z1_bringup': CMAKE_PREFIX_PATH=/home/wangkun/z1_ros2_ws/install/z1_hardware_interface:/home/wangkun/z1_ros2_ws/install/z1_description:/home/wangkun/z1_ros2_ws/install/z1_moveit:/home/wangkun/z1_ros2_ws/install/z1_examples:/home/wangkun/z1_ros2_ws/install/z1_bringup:/opt/ros/humble /usr/bin/cmake --build /home/wangkun/z1_ros2_ws/build/z1_bringup -- -j4 -l4
+[0.131s] Invoked command in '/home/wangkun/z1_ros2_ws/build/z1_bringup' returned '0': CMAKE_PREFIX_PATH=/home/wangkun/z1_ros2_ws/install/z1_hardware_interface:/home/wangkun/z1_ros2_ws/install/z1_description:/home/wangkun/z1_ros2_ws/install/z1_moveit:/home/wangkun/z1_ros2_ws/install/z1_examples:/home/wangkun/z1_ros2_ws/install/z1_bringup:/opt/ros/humble /usr/bin/cmake --build /home/wangkun/z1_ros2_ws/build/z1_bringup -- -j4 -l4
+[0.160s] Invoking command in '/home/wangkun/z1_ros2_ws/build/z1_bringup': CMAKE_PREFIX_PATH=/home/wangkun/z1_ros2_ws/install/z1_hardware_interface:/home/wangkun/z1_ros2_ws/install/z1_description:/home/wangkun/z1_ros2_ws/install/z1_moveit:/home/wangkun/z1_ros2_ws/install/z1_examples:/home/wangkun/z1_ros2_ws/install/z1_bringup:/opt/ros/humble /usr/bin/cmake --install /home/wangkun/z1_ros2_ws/build/z1_bringup
+[0.185s] -- Install configuration: "Release"
+[0.187s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_bringup/share/z1_bringup/launch
+[0.187s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_bringup/share/z1_bringup/launch/z1.launch.py
+[0.188s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_bringup/share/z1_bringup/config
+[0.188s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_bringup/share/z1_bringup/config/z1_controllers.yaml
+[0.188s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_bringup/share/z1_bringup/rviz
+[0.188s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_bringup/share/z1_bringup/rviz/z1.rviz
+[0.188s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_bringup/share/ament_index/resource_index/package_run_dependencies/z1_bringup
+[0.189s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_bringup/share/ament_index/resource_index/parent_prefix_path/z1_bringup
+[0.189s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_bringup/share/z1_bringup/environment/ament_prefix_path.sh
+[0.189s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_bringup/share/z1_bringup/environment/ament_prefix_path.dsv
+[0.189s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_bringup/share/z1_bringup/environment/path.sh
+[0.191s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_bringup/share/z1_bringup/environment/path.dsv
+[0.191s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_bringup/share/z1_bringup/local_setup.bash
+[0.192s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_bringup/share/z1_bringup/local_setup.sh
+[0.192s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_bringup/share/z1_bringup/local_setup.zsh
+[0.192s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_bringup/share/z1_bringup/local_setup.dsv
+[0.192s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_bringup/share/z1_bringup/package.dsv
+[0.192s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_bringup/share/ament_index/resource_index/packages/z1_bringup
+[0.192s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_bringup/share/z1_bringup/cmake/z1_bringupConfig.cmake
+[0.192s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_bringup/share/z1_bringup/cmake/z1_bringupConfig-version.cmake
+[0.192s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_bringup/share/z1_bringup/package.xml
+[0.196s] Invoked command in '/home/wangkun/z1_ros2_ws/build/z1_bringup' returned '0': CMAKE_PREFIX_PATH=/home/wangkun/z1_ros2_ws/install/z1_hardware_interface:/home/wangkun/z1_ros2_ws/install/z1_description:/home/wangkun/z1_ros2_ws/install/z1_moveit:/home/wangkun/z1_ros2_ws/install/z1_examples:/home/wangkun/z1_ros2_ws/install/z1_bringup:/opt/ros/humble /usr/bin/cmake --install /home/wangkun/z1_ros2_ws/build/z1_bringup

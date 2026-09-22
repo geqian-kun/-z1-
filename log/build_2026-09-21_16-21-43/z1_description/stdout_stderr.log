@@ -1,0 +1,58 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wangkun/z1_ros2_ws/build/z1_description
+-- Install configuration: "Release"
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/urdf
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/urdf/z1.ros2_control.xacro
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/urdf/const.xacro
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/urdf/z1.urdf.xacro
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/meshes
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/meshes/visual
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/meshes/visual/z1_GripperMover.dae
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/meshes/visual/z1_Link04.dae
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/meshes/visual/z1_Link01.dae
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/meshes/visual/z1_Link06.dae
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/meshes/visual/z1_Link02.dae
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/meshes/visual/z1_Link05.dae
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/meshes/visual/z1_GripperStator.dae
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/meshes/visual/z1_Link03.dae
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/meshes/visual/z1_Link00.dae
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/meshes/collision
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/meshes/collision/z1_GripperStator.STL
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/meshes/collision/z1_Link00.STL
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/meshes/collision/z1_Link02.STL
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/meshes/collision/z1_Link05.STL
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/meshes/collision/z1_GripperMover.STL
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/meshes/collision/z1_Link03.STL
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/meshes/collision/z1_Link04.STL
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/meshes/collision/z1_Link01.STL
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/meshes/collision/z1_Link06.STL
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/ament_index/resource_index/package_run_dependencies/z1_description
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/ament_index/resource_index/parent_prefix_path/z1_description
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/environment/ament_prefix_path.sh
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/environment/ament_prefix_path.dsv
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/environment/path.sh
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/environment/path.dsv
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/local_setup.bash
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/local_setup.sh
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/local_setup.zsh
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/local_setup.dsv
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/package.dsv
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/ament_index/resource_index/packages/z1_description
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/cmake/z1_descriptionConfig.cmake
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/cmake/z1_descriptionConfig-version.cmake
+-- Installing: /home/wangkun/z1_ros2_ws/install/z1_description/share/z1_description/package.xml

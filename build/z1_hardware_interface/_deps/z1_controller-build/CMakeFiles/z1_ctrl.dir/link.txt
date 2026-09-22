@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -std=c++14 -pthread -O3 -DNDEBUG -rdynamic CMakeFiles/z1_ctrl.dir/main.cpp.o -o ../../z1_ctrl   -L/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/lib  -Wl,-rpath,/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/lib -lZ1_x86_64 

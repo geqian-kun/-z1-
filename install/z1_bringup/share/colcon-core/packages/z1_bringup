@@ -1,0 +1,1 @@
+controller_manager:effort_controllers:joint_state_broadcaster:joint_trajectory_controller:position_controllers:robot_state_publisher:ros_gz_bridge:ros_gz_sim:rviz2:xacro:z1_description:z1_hardware_interface

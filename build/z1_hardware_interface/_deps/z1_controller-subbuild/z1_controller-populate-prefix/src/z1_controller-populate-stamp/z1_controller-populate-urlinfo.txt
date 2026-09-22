@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://github.com/unitreerobotics/z1_controller/archive/refs/heads/master.zip'
+tag=''

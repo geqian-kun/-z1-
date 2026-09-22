@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_sdk-subbuild/CMakeFiles/z1_sdk-populate"
+		},
+		{
+			"file" : "/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_sdk-subbuild/CMakeFiles/z1_sdk-populate.rule"
+		},
+		{
+			"file" : "/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_sdk-subbuild/CMakeFiles/z1_sdk-populate-complete.rule"
+		},
+		{
+			"file" : "/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_sdk-subbuild/z1_sdk-populate-prefix/src/z1_sdk-populate-stamp/z1_sdk-populate-build.rule"
+		},
+		{
+			"file" : "/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_sdk-subbuild/z1_sdk-populate-prefix/src/z1_sdk-populate-stamp/z1_sdk-populate-configure.rule"
+		},
+		{
+			"file" : "/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_sdk-subbuild/z1_sdk-populate-prefix/src/z1_sdk-populate-stamp/z1_sdk-populate-download.rule"
+		},
+		{
+			"file" : "/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_sdk-subbuild/z1_sdk-populate-prefix/src/z1_sdk-populate-stamp/z1_sdk-populate-install.rule"
+		},
+		{
+			"file" : "/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_sdk-subbuild/z1_sdk-populate-prefix/src/z1_sdk-populate-stamp/z1_sdk-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_sdk-subbuild/z1_sdk-populate-prefix/src/z1_sdk-populate-stamp/z1_sdk-populate-patch.rule"
+		},
+		{
+			"file" : "/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_sdk-subbuild/z1_sdk-populate-prefix/src/z1_sdk-populate-stamp/z1_sdk-populate-test.rule"
+		},
+		{
+			"file" : "/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_sdk-subbuild/z1_sdk-populate-prefix/src/z1_sdk-populate-stamp/z1_sdk-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"z1_sdk-populate"
+		],
+		"name" : "z1_sdk-populate"
+	}
+}

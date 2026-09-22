@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+
+<!-- This file is based on ur.ros2_contro.xacro provided by Universal Robots for     -->
+<!-- their robots, but with data ported for the Z1 manipulator from alientree.       -->
+<!-- Source to the original file:                                                    -->
+<!--
+https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/blob/rolling/urdf/ur.ros2_control.xacro -->
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!--
+        Exposes the `effort` command interface of a joint.
+
+        The real robot always exposes it, since the torque controller is the
+        only way of driving the Z1 with the internal position/velocity loops
+        disabled (see Z1HardwareInterface::perform_command_mode_switch).
+
+        In simulation gz_ros2_control drives a joint through a single command
+        interface and picks `effort` over `position` whenever both are declared.
+        Since no controller commands the torque by default, it is held at zero
+        and every position based controller - the joint_trajectory_controller
+        included - silently becomes ineffective. The interface is therefore only
+        exposed in simulation when explicitly requested.
+    -->
+    <xacro:macro name="z1_effort_command_interface"
+        params="sim_ignition sim_effort_interface">
+        <xacro:unless value="${sim_ignition}">
+            <command_interface name="effort">
+                <param name="min"> -${torqueMax} </param>
+                <param name="max"> ${torqueMax} </param>
+            </command_interface>
+        </xacro:unless>
+        <xacro:if value="${sim_ignition}">
+            <xacro:if value="${sim_effort_interface}">
+                <command_interface name="effort">
+                    <param name="min"> -${torqueMax} </param>
+                    <param name="max"> ${torqueMax} </param>
+                </command_interface>
+            </xacro:if>
+        </xacro:if>
+    </xacro:macro>
+
+    <xacro:macro name="z1_ros2_control"
+        params="
+        name:='z1'
+        sim_ignition:=true
+        sim_effort_interface:=false
+        sim_coppelia:=false
+        prefix:=''
+        with_gripper:=true
+        ">
+
+        <ros2_control name="${name}" type="system">
+
+            <hardware>
+                <!-- <xacro:if value="${coppelia}">
+                    <plugin>z1_coppelia_hw/Z1EffortFakeHardware</plugin>
+                </xacro:if> -->
+                <xacro:if value="${sim_ignition}">
+                    <plugin>ign_ros2_control/IgnitionSystem</plugin>
+                </xacro:if>
+                <xacro:unless value="${sim_ignition}">
+                    <plugin>z1_hardware_interface/Z1HardwareInterface</plugin>
+                    <param name="gripper">${with_gripper}</param>
+                </xacro:unless>
+            </hardware>
+
+            <joint name="joint1">
+                <command_interface name="position">
+                    <param name="min"> ${joint1_PositionMin} </param>
+                    <param name="max"> ${joint1_PositionMax} </param>
+                </command_interface>
+                <xacro:z1_effort_command_interface
+                    sim_ignition="${sim_ignition}"
+                    sim_effort_interface="${sim_effort_interface}" />
+                <state_interface name="position" />
+                <state_interface name="velocity" />
+                <state_interface name="effort" />
+            </joint>
+
+            <joint name="joint2">
+                <command_interface name="position">
+                    <param name="min"> ${joint2_PositionMin} </param>
+                    <param name="max"> ${joint2_PositionMax} </param>
+                </command_interface>
+                <xacro:z1_effort_command_interface
+                    sim_ignition="${sim_ignition}"
+                    sim_effort_interface="${sim_effort_interface}" />
+                <xacro:if value="${sim_ignition}">
+                    <!-- setting initial position in gazebo -->
+                    <state_interface name="position">
+                        <param name="initial_value">1.57</param>
+                    </state_interface>
+                </xacro:if>
+                <xacro:unless value="${sim_ignition}">
+                    <state_interface name="position" />
+                </xacro:unless>
+                <state_interface name="velocity" />
+                <state_interface name="effort" />
+            </joint>
+
+            <joint name="joint3">
+                <command_interface name="position">
+                    <param name="min"> ${joint3_PositionMin} </param>
+                    <param name="max"> ${joint3_PositionMax} </param>
+                </command_interface>
+                <xacro:z1_effort_command_interface
+                    sim_ignition="${sim_ignition}"
+                    sim_effort_interface="${sim_effort_interface}" />
+                <xacro:if value="${sim_ignition}">
+                    <!-- setting initial position in gazebo -->
+                    <state_interface name="position">
+                        <param name="initial_value">-1.57</param>
+                    </state_interface>
+                </xacro:if>
+                <xacro:unless value="${sim_ignition}">
+                    <state_interface name="position" />
+                </xacro:unless>
+                <state_interface name="velocity" />
+                <state_interface name="effort" />
+            </joint>
+
+            <joint name="joint4">
+                <command_interface name="position">
+                    <param name="min"> ${joint4_PositionMin} </param>
+                    <param name="max"> ${joint4_PositionMax} </param>
+                </command_interface>
+                <xacro:z1_effort_command_interface
+                    sim_ignition="${sim_ignition}"
+                    sim_effort_interface="${sim_effort_interface}" />
+                <state_interface name="position" />
+                <state_interface name="velocity" />
+                <state_interface name="effort" />
+            </joint>
+
+            <joint name="joint5">
+                <command_interface name="position">
+                    <param name="min"> ${joint5_PositionMin} </param>
+                    <param name="max"> ${joint5_PositionMax} </param>
+                </command_interface>
+                <xacro:z1_effort_command_interface
+                    sim_ignition="${sim_ignition}"
+                    sim_effort_interface="${sim_effort_interface}" />
+                <state_interface name="position" />
+                <state_interface name="velocity" />
+                <state_interface name="effort" />
+            </joint>
+
+            <joint name="joint6">
+                <command_interface name="position">
+                    <param name="min"> ${joint6_PositionMin} </param>
+                    <param name="max"> ${joint6_PositionMax} </param>
+                </command_interface>
+                <xacro:z1_effort_command_interface
+                    sim_ignition="${sim_ignition}"
+                    sim_effort_interface="${sim_effort_interface}" />
+                <state_interface name="position" />
+                <state_interface name="velocity" />
+                <state_interface name="effort" />
+            </joint>
+
+
+            <xacro:if value="${with_gripper}">
+                <joint name="jointGripper">
+                    <command_interface name="position">
+                        <param name="min"> ${Gripper_PositionMin} </param>
+                        <param name="max"> ${Gripper_PositionMax} </param>
+                    </command_interface>
+                    <xacro:z1_effort_command_interface
+                        sim_ignition="${sim_ignition}"
+                        sim_effort_interface="${sim_effort_interface}" />
+                    <state_interface name="position" />
+                    <state_interface name="velocity" />
+                    <state_interface name="effort" />
+                </joint>
+            </xacro:if>
+
+        </ros2_control>
+
+    </xacro:macro>
+
+</robot>

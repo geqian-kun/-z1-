@@ -1,0 +1,9 @@
+<library path="z1_hardware_interface">
+  <class name="z1_hardware_interface/Z1HardwareInterface"
+         type="unitree::z1::HardwareInterface"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+    Unitree Z1 robot hardware interface.
+    </description>
+  </class>
+</library>

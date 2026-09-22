@@ -1,0 +1,122 @@
+[33mCMake Warning at /home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/CMakeLists.txt:20 (find_package):
+  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "catkin", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "catkin" with any
+  of the following names:
+
+    catkinConfig.cmake
+    catkin-config.cmake
+
+  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+  "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+[0m
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/common/utilities/loop.h:10[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/control/CtrlComponents.h:6[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FSMState.h:7[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FiniteStateMachine.h:5[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/main.cpp:3[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/message/LowlevelCmd.h:5[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/control/CtrlComponents.h:8[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FSMState.h:7[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FiniteStateMachine.h:5[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/main.cpp:3[m[K:
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/common/math/mathTools.h:[m[K In constructor ‘[01m[KAvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)[m[K’:
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/common/math/mathTools.h:251:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KAvgCov::_valueName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  251 |     std::string [01;35m[K_valueName[m[K;
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/common/math/mathTools.h:245:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool AvgCov::_avgOnly[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  245 |     bool [01;35m[K_avgOnly[m[K;
+      |          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/message/LowlevelCmd.h:5[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/control/CtrlComponents.h:8[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FSMState.h:7[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FiniteStateMachine.h:5[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/main.cpp:3[m[K:
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/common/math/mathTools.h:217:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  217 |     [01;35m[KAvgCov[m[K(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+      |     [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/control/CtrlComponents.h:10[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FSMState.h:7[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FiniteStateMachine.h:5[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/main.cpp:3[m[K:
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/common/utilities/CSVTool.h:[m[K In member function ‘[01m[Kvoid CSVLine::writeAtEnd(std::fstream&)[m[K’:
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/common/utilities/CSVTool.h:123:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  123 |     for(int i(0); [01;35m[Ki<_values.size()[m[K; ++i){
+      |                   [01;35m[K~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/common/utilities/CSVTool.h:[m[K In member function ‘[01m[Kvoid CSVTool::saveFile()[m[K’:
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/common/utilities/CSVTool.h:223:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<CSVLine*>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  223 |     for(int i(0); [01;35m[Ki<_lines.size()[m[K; ++i){
+      |                   [01;35m[K~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/control/keyboard.h:10[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/interface/IOInterface.h:7[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/interface/IOUDP.h:4[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/control/CtrlComponents.h:12[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FSMState.h:7[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FiniteStateMachine.h:5[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/main.cpp:3[m[K:
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/control/cmdPanel.h:[m[K In member function ‘[01m[Kvirtual void CmdPanel::setRecvState(RecvState&)[m[K’:
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/control/cmdPanel.h:106:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrecvState[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  106 |     virtual void setRecvState([01;35m[KRecvState& recvState[m[K){};
+      |                               [01;35m[K~~~~~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FiniteStateMachine.h:5[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/main.cpp:3[m[K:
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FSMState.h:[m[K In member function ‘[01m[Kvirtual int FSMState::checkChange(int)[m[K’:
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FSMState.h:21:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcmd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   21 |     virtual int checkChange([01;35m[Kint cmd[m[K) {return (int)ArmFSMStateName::INVALID;}
+      |                             [01;35m[K~~~~^~~[m[K
+In file included from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/JointSpaceTraj.h:5[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/State_BackToStart.h:6[m[K,
+                 from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/main.cpp:5[m[K:
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:[m[K In member function ‘[01m[Kvirtual bool Trajectory::getJointCmd(Vec6&, Vec6&)[m[K’:
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:12:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   12 |     virtual bool getJointCmd([01;35m[KVec6 &q[m[K, Vec6 &qd){return false;};
+      |                              [01;35m[K~~~~~~^[m[K
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:12:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kqd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   12 |     virtual bool getJointCmd(Vec6 &q, [01;35m[KVec6 &qd[m[K){return false;};
+      |                                       [01;35m[K~~~~~~^~[m[K
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:[m[K In member function ‘[01m[Kvirtual bool Trajectory::getJointCmd(Vec6&, Vec6&, double&, double&)[m[K’:
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:13:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   13 |     virtual bool getJointCmd([01;35m[KVec6 &q[m[K, Vec6 &qd, double &gripperQ, double &gripperQd){return false;};
+      |                              [01;35m[K~~~~~~^[m[K
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:13:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kqd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   13 |     virtual bool getJointCmd(Vec6 &q, [01;35m[KVec6 &qd[m[K, double &gripperQ, double &gripperQd){return false;};
+      |                                       [01;35m[K~~~~~~^~[m[K
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:13:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KgripperQ[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   13 |     virtual bool getJointCmd(Vec6 &q, Vec6 &qd, [01;35m[Kdouble &gripperQ[m[K, double &gripperQd){return false;};
+      |                                                 [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:13:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KgripperQd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   13 |     virtual bool getJointCmd(Vec6 &q, Vec6 &qd, double &gripperQ, [01;35m[Kdouble &gripperQd[m[K){return false;};
+      |                                                                   [01;35m[K~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:[m[K In member function ‘[01m[Kvirtual bool Trajectory::getCartesionCmd(Vec6, Vec6&, Vec6&)[m[K’:
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:14:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KpastPosture[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   14 |     virtual bool getCartesionCmd([01;35m[KVec6 pastPosture[m[K, Vec6 &endPosture, Vec6 &endTwist){return false;};
+      |                                  [01;35m[K~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:14:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KendPosture[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   14 |     virtual bool getCartesionCmd(Vec6 pastPosture, [01;35m[KVec6 &endPosture[m[K, Vec6 &endTwist){return false;};
+      |                                                    [01;35m[K~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:14:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KendTwist[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   14 |     virtual bool getCartesionCmd(Vec6 pastPosture, Vec6 &endPosture, [01;35m[KVec6 &endTwist[m[K){return false;};
+      |                                                                      [01;35m[K~~~~~~^~~~~~~~[m[K
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/main.cpp:[m[K In lambda function:
+[01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/main.cpp:94:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksignum[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   94 |     signal(SIGINT, []([01;35m[Kint signum[m[K){running = false;});
+      |                       [01;35m[K~~~~^~~~~~[m[K
+[01m[K/home/wangkun/z1_ros2_ws/src/z1_ros2/z1_hardware_interface/src/z1_hardware_interface.cpp:[m[K In member function ‘[01m[Klong int unitree::z1::HardwareInterface::get_joint_id(const string&) const[m[K’:
+[01m[K/home/wangkun/z1_ros2_ws/src/z1_ros2/z1_hardware_interface/src/z1_hardware_interface.cpp:341:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong int[m[K’ and ‘[01m[Kstd::vector<hardware_interface::ComponentInfo>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  341 |     for (long i = 0; [01;35m[Ki < joints().size()[m[K; ++i) {
+      |                      [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,210 @@
+[0.039s] Invoking command in '/home/wangkun/z1_ros2_ws/build/z1_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wangkun/z1_ros2_ws/src/z1_ros2/z1_hardware_interface -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wangkun/z1_ros2_ws/install/z1_hardware_interface
+[0.372s] -- The C compiler identification is GNU 11.4.0
+[0.605s] -- The CXX compiler identification is GNU 11.4.0
+[0.631s] -- Detecting C compiler ABI info
+[0.839s] -- Detecting C compiler ABI info - done
+[0.852s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.853s] -- Detecting C compile features
+[0.854s] -- Detecting C compile features - done
+[0.861s] -- Detecting CXX compiler ABI info
+[1.052s] -- Detecting CXX compiler ABI info - done
+[1.066s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.067s] -- Detecting CXX compile features
+[1.067s] -- Detecting CXX compile features - done
+[1.100s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.380s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.606s] -- Found hardware_interface: 2.54.2 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.766s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.786s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.820s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.872s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.936s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.672s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.687s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.799s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.963s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.972s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.002s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.009s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.029s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.056s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.085s] -- Looking for pthread.h
+[3.301s] -- Looking for pthread.h - found
+[3.302s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.480s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.483s] -- Found Threads: TRUE  
+[47.632s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[47.651s] [33mCMake Warning at /home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/CMakeLists.txt:20 (find_package):
+[47.651s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[47.651s]   asked CMake to find a package configuration file provided by "catkin", but
+[47.651s]   CMake did not find one.
+[47.652s] 
+[47.652s]   Could not find a package configuration file provided by "catkin" with any
+[47.652s]   of the following names:
+[47.652s] 
+[47.652s]     catkinConfig.cmake
+[47.652s]     catkin-config.cmake
+[47.652s] 
+[47.652s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[47.652s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[47.652s]   provides a separate development package or SDK, be sure it has been
+[47.653s]   installed.
+[47.653s] 
+[47.653s] [0m
+[47.653s] -- z1_sdk not found, fetching...
+[242.672s] -- Configuring done
+[242.712s] -- Generating done
+[242.725s] -- Build files have been written to: /home/wangkun/z1_ros2_ws/build/z1_hardware_interface
+[242.758s] Invoked command in '/home/wangkun/z1_ros2_ws/build/z1_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wangkun/z1_ros2_ws/src/z1_ros2/z1_hardware_interface -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/wangkun/z1_ros2_ws/install/z1_hardware_interface
+[242.761s] Invoking command in '/home/wangkun/z1_ros2_ws/build/z1_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wangkun/z1_ros2_ws/build/z1_hardware_interface -- -j2 -l2
+[242.901s] [ 50%] [32mBuilding CXX object CMakeFiles/z1_hardware_interface.dir/src/z1_hardware_interface.cpp.o[0m
+[242.902s] [ 50%] [32mBuilding CXX object _deps/z1_controller-build/CMakeFiles/z1_ctrl.dir/main.cpp.o[0m
+[245.103s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[245.103s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[245.104s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[245.104s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[245.104s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[245.104s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[245.106s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[245.106s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/common/utilities/loop.h:10[m[K,
+[245.106s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/control/CtrlComponents.h:6[m[K,
+[245.106s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FSMState.h:7[m[K,
+[245.106s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FiniteStateMachine.h:5[m[K,
+[245.106s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/main.cpp:3[m[K:
+[245.106s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[245.106s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[245.106s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[246.487s] In file included from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/message/LowlevelCmd.h:5[m[K,
+[246.488s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/control/CtrlComponents.h:8[m[K,
+[246.488s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FSMState.h:7[m[K,
+[246.489s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FiniteStateMachine.h:5[m[K,
+[246.489s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/main.cpp:3[m[K:
+[246.489s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/common/math/mathTools.h:[m[K In constructor ‘[01m[KAvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)[m[K’:
+[246.490s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/common/math/mathTools.h:251:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KAvgCov::_valueName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[246.490s]   251 |     std::string [01;35m[K_valueName[m[K;
+[246.490s]       |                 [01;35m[K^~~~~~~~~~[m[K
+[246.490s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/common/math/mathTools.h:245:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool AvgCov::_avgOnly[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[246.490s]   245 |     bool [01;35m[K_avgOnly[m[K;
+[246.490s]       |          [01;35m[K^~~~~~~~[m[K
+[246.494s] In file included from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/message/LowlevelCmd.h:5[m[K,
+[246.495s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/control/CtrlComponents.h:8[m[K,
+[246.495s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FSMState.h:7[m[K,
+[246.495s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FiniteStateMachine.h:5[m[K,
+[246.495s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/main.cpp:3[m[K:
+[246.495s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/common/math/mathTools.h:217:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[246.498s]   217 |     [01;35m[KAvgCov[m[K(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+[246.498s]       |     [01;35m[K^~~~~~[m[K
+[247.167s] In file included from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/control/CtrlComponents.h:10[m[K,
+[247.167s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FSMState.h:7[m[K,
+[247.168s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FiniteStateMachine.h:5[m[K,
+[247.168s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/main.cpp:3[m[K:
+[247.168s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/common/utilities/CSVTool.h:[m[K In member function ‘[01m[Kvoid CSVLine::writeAtEnd(std::fstream&)[m[K’:
+[247.171s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/common/utilities/CSVTool.h:123:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[247.171s]   123 |     for(int i(0); [01;35m[Ki<_values.size()[m[K; ++i){
+[247.171s]       |                   [01;35m[K~^~~~~~~~~~~~~~~[m[K
+[247.247s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/common/utilities/CSVTool.h:[m[K In member function ‘[01m[Kvoid CSVTool::saveFile()[m[K’:
+[247.248s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/common/utilities/CSVTool.h:223:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<CSVLine*>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[247.248s]   223 |     for(int i(0); [01;35m[Ki<_lines.size()[m[K; ++i){
+[247.248s]       |                   [01;35m[K~^~~~~~~~~~~~~~[m[K
+[247.618s] In file included from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/control/keyboard.h:10[m[K,
+[247.619s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/interface/IOInterface.h:7[m[K,
+[247.619s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/interface/IOUDP.h:4[m[K,
+[247.620s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/control/CtrlComponents.h:12[m[K,
+[247.620s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FSMState.h:7[m[K,
+[247.620s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FiniteStateMachine.h:5[m[K,
+[247.621s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/main.cpp:3[m[K:
+[247.621s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/control/cmdPanel.h:[m[K In member function ‘[01m[Kvirtual void CmdPanel::setRecvState(RecvState&)[m[K’:
+[247.621s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/control/cmdPanel.h:106:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrecvState[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[247.621s]   106 |     virtual void setRecvState([01;35m[KRecvState& recvState[m[K){};
+[247.621s]       |                               [01;35m[K~~~~~~~~~~~^~~~~~~~~[m[K
+[247.676s] In file included from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FiniteStateMachine.h:5[m[K,
+[247.676s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/main.cpp:3[m[K:
+[247.676s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FSMState.h:[m[K In member function ‘[01m[Kvirtual int FSMState::checkChange(int)[m[K’:
+[247.676s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/FSMState.h:21:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcmd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[247.676s]    21 |     virtual int checkChange([01;35m[Kint cmd[m[K) {return (int)ArmFSMStateName::INVALID;}
+[247.677s]       |                             [01;35m[K~~~~^~~[m[K
+[247.682s] In file included from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/JointSpaceTraj.h:5[m[K,
+[247.683s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/FSM/State_BackToStart.h:6[m[K,
+[247.683s]                  from [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/main.cpp:5[m[K:
+[247.683s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:[m[K In member function ‘[01m[Kvirtual bool Trajectory::getJointCmd(Vec6&, Vec6&)[m[K’:
+[247.684s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:12:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[247.684s]    12 |     virtual bool getJointCmd([01;35m[KVec6 &q[m[K, Vec6 &qd){return false;};
+[247.684s]       |                              [01;35m[K~~~~~~^[m[K
+[247.685s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:12:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kqd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[247.689s]    12 |     virtual bool getJointCmd(Vec6 &q, [01;35m[KVec6 &qd[m[K){return false;};
+[247.690s]       |                                       [01;35m[K~~~~~~^~[m[K
+[247.690s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:[m[K In member function ‘[01m[Kvirtual bool Trajectory::getJointCmd(Vec6&, Vec6&, double&, double&)[m[K’:
+[247.690s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:13:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[247.690s]    13 |     virtual bool getJointCmd([01;35m[KVec6 &q[m[K, Vec6 &qd, double &gripperQ, double &gripperQd){return false;};
+[247.690s]       |                              [01;35m[K~~~~~~^[m[K
+[247.690s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:13:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kqd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[247.691s]    13 |     virtual bool getJointCmd(Vec6 &q, [01;35m[KVec6 &qd[m[K, double &gripperQ, double &gripperQd){return false;};
+[247.691s]       |                                       [01;35m[K~~~~~~^~[m[K
+[247.691s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:13:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KgripperQ[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[247.691s]    13 |     virtual bool getJointCmd(Vec6 &q, Vec6 &qd, [01;35m[Kdouble &gripperQ[m[K, double &gripperQd){return false;};
+[247.691s]       |                                                 [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[247.691s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:13:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KgripperQd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[247.691s]    13 |     virtual bool getJointCmd(Vec6 &q, Vec6 &qd, double &gripperQ, [01;35m[Kdouble &gripperQd[m[K){return false;};
+[247.691s]       |                                                                   [01;35m[K~~~~~~~~^~~~~~~~~[m[K
+[247.691s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:[m[K In member function ‘[01m[Kvirtual bool Trajectory::getCartesionCmd(Vec6, Vec6&, Vec6&)[m[K’:
+[247.692s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:14:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KpastPosture[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[247.692s]    14 |     virtual bool getCartesionCmd([01;35m[KVec6 pastPosture[m[K, Vec6 &endPosture, Vec6 &endTwist){return false;};
+[247.694s]       |                                  [01;35m[K~~~~~^~~~~~~~~~~[m[K
+[247.694s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:14:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KendPosture[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[247.694s]    14 |     virtual bool getCartesionCmd(Vec6 pastPosture, [01;35m[KVec6 &endPosture[m[K, Vec6 &endTwist){return false;};
+[247.695s]       |                                                    [01;35m[K~~~~~~^~~~~~~~~~[m[K
+[247.695s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/include/trajectory/Trajectory.h:14:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KendTwist[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[247.696s]    14 |     virtual bool getCartesionCmd(Vec6 pastPosture, Vec6 &endPosture, [01;35m[KVec6 &endTwist[m[K){return false;};
+[247.696s]       |                                                                      [01;35m[K~~~~~~^~~~~~~~[m[K
+[247.764s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/main.cpp:[m[K In lambda function:
+[247.764s] [01m[K/home/wangkun/z1_ros2_ws/build/z1_hardware_interface/_deps/z1_controller-src/main.cpp:94:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksignum[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[247.764s]    94 |     signal(SIGINT, []([01;35m[Kint signum[m[K){running = false;});
+[247.764s]       |                       [01;35m[K~~~~^~~~~~[m[K
+[249.121s] [01m[K/home/wangkun/z1_ros2_ws/src/z1_ros2/z1_hardware_interface/src/z1_hardware_interface.cpp:[m[K In member function ‘[01m[Klong int unitree::z1::HardwareInterface::get_joint_id(const string&) const[m[K’:
+[249.123s] [01m[K/home/wangkun/z1_ros2_ws/src/z1_ros2/z1_hardware_interface/src/z1_hardware_interface.cpp:341:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong int[m[K’ and ‘[01m[Kstd::vector<hardware_interface::ComponentInfo>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[249.123s]   341 |     for (long i = 0; [01;35m[Ki < joints().size()[m[K; ++i) {
+[249.123s]       |                      [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[250.942s] [ 75%] [32m[1mLinking CXX executable ../../z1_ctrl[0m
+[251.164s] [ 75%] Built target z1_ctrl
+[254.839s] [100%] [32m[1mLinking CXX shared library libz1_hardware_interface.so[0m
+[255.493s] [100%] Built target z1_hardware_interface
+[255.539s] Invoked command in '/home/wangkun/z1_ros2_ws/build/z1_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wangkun/z1_ros2_ws/build/z1_hardware_interface -- -j2 -l2
+[255.543s] Invoking command in '/home/wangkun/z1_ros2_ws/build/z1_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wangkun/z1_ros2_ws/build/z1_hardware_interface
+[255.567s] -- Install configuration: "Release"
+[255.567s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/z1_hardware_interface.xml
+[255.569s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/lib/libz1_hardware_interface.so
+[255.571s] -- Set runtime path of "/home/wangkun/z1_ros2_ws/install/z1_hardware_interface/lib/libz1_hardware_interface.so" to ""
+[255.571s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/include/include
+[255.572s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/include/include/z1_hardware_interface
+[255.573s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/include/include/z1_hardware_interface/z1_hardware_interface.hpp
+[255.574s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/lib/libZ1_x86_64.so
+[255.580s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/lib/libZ1_SDK_x86_64.so
+[255.583s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/controller/z1_ctrl
+[255.584s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/config
+[255.585s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/config/savedArmStates.csv
+[255.586s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/config/config.xml
+[255.587s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/scripts
+[255.588s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/scripts/z1_controller_process.py
+[255.589s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/environment/library_path.sh
+[255.589s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/environment/library_path.dsv
+[255.591s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/ament_index/resource_index/package_run_dependencies/z1_hardware_interface
+[255.591s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/ament_index/resource_index/parent_prefix_path/z1_hardware_interface
+[255.592s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/environment/ament_prefix_path.sh
+[255.592s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/environment/ament_prefix_path.dsv
+[255.592s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/environment/path.sh
+[255.592s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/environment/path.dsv
+[255.592s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/local_setup.bash
+[255.593s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/local_setup.sh
+[255.593s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/local_setup.zsh
+[255.593s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/local_setup.dsv
+[255.593s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/package.dsv
+[255.594s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/ament_index/resource_index/packages/z1_hardware_interface
+[255.595s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/z1_hardware_interface
+[255.595s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/cmake/export_z1_hardware_interfaceExport.cmake
+[255.596s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/cmake/export_z1_hardware_interfaceExport-release.cmake
+[255.596s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/cmake/ament_cmake_export_targets-extras.cmake
+[255.596s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[255.597s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/cmake/z1_hardware_interfaceConfig.cmake
+[255.597s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/cmake/z1_hardware_interfaceConfig-version.cmake
+[255.598s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_hardware_interface/share/z1_hardware_interface/package.xml
+[255.608s] Invoked command in '/home/wangkun/z1_ros2_ws/build/z1_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wangkun/z1_ros2_ws/build/z1_hardware_interface

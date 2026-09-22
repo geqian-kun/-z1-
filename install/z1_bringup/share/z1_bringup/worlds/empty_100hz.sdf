@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <world name="empty">
+    <!-- 1. 物理参数放在独立的 <physics> 标签中 -->
+    <physics name="100hz" type="ignored">
+      <max_step_size>0.01</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+
+    <!-- 2. 插件文件名使用 Fortress 的命名规则 (libignition-gazebo-*) -->
+    <plugin filename="libignition-gazebo-physics-system.so" name="ignition::gazebo::systems::Physics"/>
+    <plugin filename="libignition-gazebo-user-commands-system.so" name="ignition::gazebo::systems::UserCommands"/>
+    <plugin filename="libignition-gazebo-scene-broadcaster-system.so" name="ignition::gazebo::systems::SceneBroadcaster"/>
+    
+    <!-- 3. 添加地面和光照 -->
+    <include>
+      <uri>https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Ground Plane</uri>
+    </include>
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+  </world>
+</sdf>
