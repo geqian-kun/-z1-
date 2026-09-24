@@ -47,13 +47,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 22,
+				"line" : 23,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 27,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
@@ -107,7 +107,7 @@
 			{
 				"command" : 9,
 				"file" : 0,
-				"line" : 28,
+				"line" : 29,
 				"parent" : 0
 			},
 			{
@@ -294,7 +294,8 @@
 			"destination" : "lib/z1_examples",
 			"paths" : 
 			[
-				"z1_examples/waypoint_test.py"
+				"z1_examples/waypoint_test.py",
+				"z1_examples/teleop_keyboard.py"
 			],
 			"type" : "file"
 		},

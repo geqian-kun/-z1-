@@ -43,7 +43,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/z1_examples" TYPE PROGRAM FILES "/home/wangkun/z1_ros2_ws/src/z1_ros2/z1_examples/z1_examples/waypoint_test.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/z1_examples" TYPE PROGRAM FILES
+    "/home/wangkun/z1_ros2_ws/src/z1_ros2/z1_examples/z1_examples/waypoint_test.py"
+    "/home/wangkun/z1_ros2_ws/src/z1_ros2/z1_examples/z1_examples/teleop_keyboard.py"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

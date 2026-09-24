@@ -1,1 +1,1 @@
-control_msgs:joint_trajectory_controller:trajectory_msgs:z1_bringup
+builtin_interfaces:control_msgs:controller_manager:geometry_msgs:joint_trajectory_controller:launch:launch_ros:moveit_msgs:position_controllers:python3-numpy:rclpy:sensor_msgs:std_msgs:tf2_ros:trajectory_msgs:z1_bringup

@@ -5,7 +5,7 @@ set(z1_examples_BUILD_DEPENDS "z1_bringup" "joint_trajectory_controller" "trajec
 set(z1_examples_BUILDTOOL_DEPENDS "ament_cmake")
 set(z1_examples_BUILD_EXPORT_DEPENDS "z1_bringup" "joint_trajectory_controller" "trajectory_msgs" "control_msgs")
 set(z1_examples_BUILDTOOL_EXPORT_DEPENDS )
-set(z1_examples_EXEC_DEPENDS "z1_bringup" "joint_trajectory_controller" "trajectory_msgs" "control_msgs")
+set(z1_examples_EXEC_DEPENDS "rclpy" "sensor_msgs" "std_msgs" "geometry_msgs" "builtin_interfaces" "tf2_ros" "moveit_msgs" "controller_manager" "position_controllers" "launch" "launch_ros" "python3-numpy" "z1_bringup" "joint_trajectory_controller" "trajectory_msgs" "control_msgs")
 set(z1_examples_TEST_DEPENDS )
 set(z1_examples_GROUP_DEPENDS )
 set(z1_examples_MEMBER_OF_GROUPS )

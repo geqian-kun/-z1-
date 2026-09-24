@@ -1,0 +1,48 @@
+[0.026s] Invoking command in '/home/wangkun/z1_ros2_ws/build/z1_examples': CMAKE_PREFIX_PATH=/home/wangkun/z1_ros2_ws/install/z1_bringup:/home/wangkun/z1_ros2_ws/install/z1_hardware_interface:/home/wangkun/z1_ros2_ws/install/z1_description:/home/wangkun/z1_ros2_ws/install/z1_moveit:/home/wangkun/z1_ros2_ws/install/z1_examples:/opt/ros/humble /usr/bin/cmake --build /home/wangkun/z1_ros2_ws/build/z1_examples -- -j4 -l4
+[0.136s] Built target ament_cmake_python_copy_z1_examples
+[0.447s] running egg_info
+[0.450s] writing z1_examples.egg-info/PKG-INFO
+[0.450s] writing dependency_links to z1_examples.egg-info/dependency_links.txt
+[0.450s] writing top-level names to z1_examples.egg-info/top_level.txt
+[0.453s] reading manifest file 'z1_examples.egg-info/SOURCES.txt'
+[0.455s] writing manifest file 'z1_examples.egg-info/SOURCES.txt'
+[0.514s] Built target ament_cmake_python_build_z1_examples_egg
+[0.533s] Invoked command in '/home/wangkun/z1_ros2_ws/build/z1_examples' returned '0': CMAKE_PREFIX_PATH=/home/wangkun/z1_ros2_ws/install/z1_bringup:/home/wangkun/z1_ros2_ws/install/z1_hardware_interface:/home/wangkun/z1_ros2_ws/install/z1_description:/home/wangkun/z1_ros2_ws/install/z1_moveit:/home/wangkun/z1_ros2_ws/install/z1_examples:/opt/ros/humble /usr/bin/cmake --build /home/wangkun/z1_ros2_ws/build/z1_examples -- -j4 -l4
+[0.554s] Invoking command in '/home/wangkun/z1_ros2_ws/build/z1_examples': CMAKE_PREFIX_PATH=/home/wangkun/z1_ros2_ws/install/z1_bringup:/home/wangkun/z1_ros2_ws/install/z1_hardware_interface:/home/wangkun/z1_ros2_ws/install/z1_description:/home/wangkun/z1_ros2_ws/install/z1_moveit:/home/wangkun/z1_ros2_ws/install/z1_examples:/opt/ros/humble /usr/bin/cmake --install /home/wangkun/z1_ros2_ws/build/z1_examples
+[0.565s] -- Install configuration: "Release"
+[0.566s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/lib/z1_examples/waypoint_test.py
+[0.567s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_examples/lib/z1_examples/teleop_keyboard.py
+[0.567s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/share/z1_examples/launch
+[0.567s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_examples/share/z1_examples/launch/teleop_keyboard.launch.py
+[0.568s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/share/z1_examples/launch/waypoint_test.launch.py
+[0.568s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/share/z1_examples/launch/__pycache__
+[0.568s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_examples/share/z1_examples/launch/__pycache__/teleop_keyboard.launch.cpython-310.pyc
+[0.569s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/share/z1_examples/environment/pythonpath.sh
+[0.569s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/share/z1_examples/environment/pythonpath.dsv
+[0.570s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/local/lib/python3.10/dist-packages/z1_examples-0.0.0-py3.10.egg-info
+[0.570s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_examples/local/lib/python3.10/dist-packages/z1_examples-0.0.0-py3.10.egg-info/PKG-INFO
+[0.570s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_examples/local/lib/python3.10/dist-packages/z1_examples-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.571s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_examples/local/lib/python3.10/dist-packages/z1_examples-0.0.0-py3.10.egg-info/top_level.txt
+[0.571s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_examples/local/lib/python3.10/dist-packages/z1_examples-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.571s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/local/lib/python3.10/dist-packages/z1_examples
+[0.571s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_examples/local/lib/python3.10/dist-packages/z1_examples/teleop_keyboard.py
+[0.571s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/local/lib/python3.10/dist-packages/z1_examples/waypoint_test.py
+[0.571s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/local/lib/python3.10/dist-packages/z1_examples/__init__.py
+[0.619s] Listing '/home/wangkun/z1_ros2_ws/install/z1_examples/local/lib/python3.10/dist-packages/z1_examples'...
+[0.619s] Compiling '/home/wangkun/z1_ros2_ws/install/z1_examples/local/lib/python3.10/dist-packages/z1_examples/teleop_keyboard.py'...
+[0.625s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/share/ament_index/resource_index/package_run_dependencies/z1_examples
+[0.626s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/share/ament_index/resource_index/parent_prefix_path/z1_examples
+[0.626s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/share/z1_examples/environment/ament_prefix_path.sh
+[0.626s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/share/z1_examples/environment/ament_prefix_path.dsv
+[0.627s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/share/z1_examples/environment/path.sh
+[0.627s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/share/z1_examples/environment/path.dsv
+[0.627s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/share/z1_examples/local_setup.bash
+[0.627s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/share/z1_examples/local_setup.sh
+[0.627s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/share/z1_examples/local_setup.zsh
+[0.627s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/share/z1_examples/local_setup.dsv
+[0.627s] -- Installing: /home/wangkun/z1_ros2_ws/install/z1_examples/share/z1_examples/package.dsv
+[0.627s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/share/ament_index/resource_index/packages/z1_examples
+[0.627s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/share/z1_examples/cmake/z1_examplesConfig.cmake
+[0.627s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/share/z1_examples/cmake/z1_examplesConfig-version.cmake
+[0.627s] -- Up-to-date: /home/wangkun/z1_ros2_ws/install/z1_examples/share/z1_examples/package.xml
+[0.630s] Invoked command in '/home/wangkun/z1_ros2_ws/build/z1_examples' returned '0': CMAKE_PREFIX_PATH=/home/wangkun/z1_ros2_ws/install/z1_bringup:/home/wangkun/z1_ros2_ws/install/z1_hardware_interface:/home/wangkun/z1_ros2_ws/install/z1_description:/home/wangkun/z1_ros2_ws/install/z1_moveit:/home/wangkun/z1_ros2_ws/install/z1_examples:/opt/ros/humble /usr/bin/cmake --install /home/wangkun/z1_ros2_ws/build/z1_examples
