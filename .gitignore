@@ -1,0 +1,28 @@
+# ROS2 / colcon
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.swp
+*~
+.DS_Store
+
+# ROS bags / experimental data
+*.bag
+*.db3
+*.mcap
+
+# Unitree Z1 packages linked from another workspace
+src/z1_controller
+src/z1_ros2
+src/z1_sdk
